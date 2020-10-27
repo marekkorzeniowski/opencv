@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/marek/scalac-project/Brightness-analyzer/target/scala-2.13/brightness-analyzer_2.13-1.5.4.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Utils.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/marek/scalac-project/Brightness-analyzer/target/scala-2.13/classes/Utils.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Histogram1D.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/marek/scalac-project/Brightness-analyzer/target/scala-2.13/classes/Histogram1D.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	brightnessAnalyzer$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/marek/scalac-project/Brightness-analyzer/target/scala-2.13/classes/brightnessAnalyzer$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Utils$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/marek/scalac-project/Brightness-analyzer/target/scala-2.13/classes/Utils$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	brightnessAnalyzer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/marek/scalac-project/Brightness-analyzer/target/scala-2.13/classes/brightnessAnalyzer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	brightnessAnalyzer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/marek/scalac-project/Brightness-analyzer/target/scala-2.13/classes/brightnessAnalyzer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

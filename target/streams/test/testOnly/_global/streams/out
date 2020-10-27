@@ -1,0 +1,159 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector(-Xmx1G)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 1 initial tasks for 1 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(UtlisSpec, sbt.ForkMain$SubclassFingerscan@18481b72, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUtlisSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUtilis object[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should checkRange - return false if value beyond range[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should ifDirExists - return false if directory is invalid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mUtlisSpec *** ABORTED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsatisfiedLinkError: no jniopenblas_nolapack in java.library.path: [/usr/java/packages/lib, /usr/lib64, /lib64, /lib, /usr/lib][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2660)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.Runtime.loadLibrary0(Runtime.java:827)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.System.loadLibrary(System.java:1870)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.bytedeco.javacpp.Loader.loadLibrary(Loader.java:1683)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.bytedeco.javacpp.Loader.load(Loader.java:1300)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.bytedeco.javacpp.Loader.load(Loader.java:1123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.bytedeco.openblas.global.openblas_nolapack.<clinit>(openblas_nolapack.java:12)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.Class.forName0(Native Method)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.Class.forName(Class.java:398)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.bytedeco.javacpp.Loader.load(Loader.java:1190)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Cause: java.lang.UnsatisfiedLinkError: no openblas_nolapack in java.library.path: [/usr/java/packages/lib, /usr/lib64, /lib64, /lib, /usr/lib][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2660)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.Runtime.loadLibrary0(Runtime.java:827)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.System.loadLibrary(System.java:1870)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.bytedeco.javacpp.Loader.loadLibrary(Loader.java:1683)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.bytedeco.javacpp.Loader.load(Loader.java:1227)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.bytedeco.javacpp.Loader.load(Loader.java:1123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.bytedeco.openblas.global.openblas_nolapack.<clinit>(openblas_nolapack.java:12)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.Class.forName0(Native Method)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.Class.forName(Class.java:398)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.bytedeco.javacpp.Loader.load(Loader.java:1190)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[31merror[0m] [0m[0mUncaught exception when running UtlisSpec: java.lang.UnsatisfiedLinkError: no jniopenblas_nolapack in java.library.path: [/usr/java/packages/lib, /usr/lib64, /lib64, /lib, /usr/lib][0m
+[0m[[0m[31merror[0m] [0m[0msbt.ForkMain$ForkError: java.lang.UnsatisfiedLinkError: no jniopenblas_nolapack in java.library.path: [/usr/java/packages/lib, /usr/lib64, /lib64, /lib, /usr/lib][0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2660)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Runtime.loadLibrary0(Runtime.java:827)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.System.loadLibrary(System.java:1870)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.bytedeco.javacpp.Loader.loadLibrary(Loader.java:1683)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.bytedeco.javacpp.Loader.load(Loader.java:1300)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.bytedeco.javacpp.Loader.load(Loader.java:1123)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.bytedeco.openblas.global.openblas_nolapack.<clinit>(openblas_nolapack.java:12)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Class.forName0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Class.forName(Class.java:398)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.bytedeco.javacpp.Loader.load(Loader.java:1190)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.bytedeco.javacpp.Loader.load(Loader.java:1123)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.bytedeco.opencv.global.opencv_imgcodecs.<clinit>(opencv_imgcodecs.java:18)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Utils$.loadImage(Utils.scala:13)[0m
+[0m[[0m[31merror[0m] [0m[0m	at UtlisSpec.$anonfun$new$3(UtlisSpec.scala:20)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.Transformer.apply(Transformer.scala:22)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.Transformer.apply(Transformer.scala:20)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpecLike$$anon$5.apply(AnyFlatSpecLike.scala:1683)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpec.withFixture(AnyFlatSpec.scala:1685)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpecLike.invokeWithFixture$1(AnyFlatSpecLike.scala:1681)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpecLike.$anonfun$runTest$1(AnyFlatSpecLike.scala:1693)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:306)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpecLike.runTest(AnyFlatSpecLike.scala:1693)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpecLike.runTest$(AnyFlatSpecLike.scala:1675)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpec.runTest(AnyFlatSpec.scala:1685)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpecLike.$anonfun$runTests$1(AnyFlatSpecLike.scala:1751)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:413)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.foreach(List.scala:305)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:390)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:427)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.foreach(List.scala:305)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:396)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:475)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpecLike.runTests(AnyFlatSpecLike.scala:1751)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpecLike.runTests$(AnyFlatSpecLike.scala:1750)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpec.runTests(AnyFlatSpec.scala:1685)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.Suite.run(Suite.scala:1112)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.Suite.run$(Suite.scala:1094)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpec.org$scalatest$flatspec$AnyFlatSpecLike$$super$run(AnyFlatSpec.scala:1685)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpecLike.$anonfun$run$1(AnyFlatSpecLike.scala:1796)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.SuperEngine.runImpl(Engine.scala:535)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpecLike.run(AnyFlatSpecLike.scala:1796)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpecLike.run$(AnyFlatSpecLike.scala:1794)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpec.run(AnyFlatSpec.scala:1685)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:318)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:513)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ForkMain$Run.lambda$runTest$1(ForkMain.java:304)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:834)[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: sbt.ForkMain$ForkError: java.lang.UnsatisfiedLinkError: no openblas_nolapack in java.library.path: [/usr/java/packages/lib, /usr/lib64, /lib64, /lib, /usr/lib][0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2660)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Runtime.loadLibrary0(Runtime.java:827)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.System.loadLibrary(System.java:1870)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.bytedeco.javacpp.Loader.loadLibrary(Loader.java:1683)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.bytedeco.javacpp.Loader.load(Loader.java:1227)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.bytedeco.javacpp.Loader.load(Loader.java:1123)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.bytedeco.openblas.global.openblas_nolapack.<clinit>(openblas_nolapack.java:12)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Class.forName0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Class.forName(Class.java:398)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.bytedeco.javacpp.Loader.load(Loader.java:1190)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.bytedeco.javacpp.Loader.load(Loader.java:1123)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.bytedeco.opencv.global.opencv_imgcodecs.<clinit>(opencv_imgcodecs.java:18)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Utils$.loadImage(Utils.scala:13)[0m
+[0m[[0m[31merror[0m] [0m[0m	at UtlisSpec.$anonfun$new$3(UtlisSpec.scala:20)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.Transformer.apply(Transformer.scala:22)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.Transformer.apply(Transformer.scala:20)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpecLike$$anon$5.apply(AnyFlatSpecLike.scala:1683)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpec.withFixture(AnyFlatSpec.scala:1685)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpecLike.invokeWithFixture$1(AnyFlatSpecLike.scala:1681)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpecLike.$anonfun$runTest$1(AnyFlatSpecLike.scala:1693)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:306)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpecLike.runTest(AnyFlatSpecLike.scala:1693)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpecLike.runTest$(AnyFlatSpecLike.scala:1675)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpec.runTest(AnyFlatSpec.scala:1685)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpecLike.$anonfun$runTests$1(AnyFlatSpecLike.scala:1751)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:413)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.foreach(List.scala:305)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:390)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:427)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.foreach(List.scala:305)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:396)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:475)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpecLike.runTests(AnyFlatSpecLike.scala:1751)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpecLike.runTests$(AnyFlatSpecLike.scala:1750)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpec.runTests(AnyFlatSpec.scala:1685)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.Suite.run(Suite.scala:1112)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.Suite.run$(Suite.scala:1094)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpec.org$scalatest$flatspec$AnyFlatSpecLike$$super$run(AnyFlatSpec.scala:1685)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpecLike.$anonfun$run$1(AnyFlatSpecLike.scala:1796)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.SuperEngine.runImpl(Engine.scala:535)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpecLike.run(AnyFlatSpecLike.scala:1796)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpecLike.run$(AnyFlatSpecLike.scala:1794)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.flatspec.AnyFlatSpec.run(AnyFlatSpec.scala:1685)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:318)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:513)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ForkMain$Run.lambda$runTest$1(ForkMain.java:304)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:834)[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 888 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 0, aborted 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 2, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 SUITE ABORTED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mError during tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	UtlisSpec[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m

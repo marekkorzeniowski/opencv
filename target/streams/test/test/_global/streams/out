@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector(-Xmx1G)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 2 initial tasks for 2 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(UtlisSpec, sbt.ForkMain$SubclassFingerscan@89e7c36, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUtlisSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUtilis object[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should checkRange - return false if value beyond range[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should ifDirExists - return false if directory is invalid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should loadImage - assert not null[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should getListOfFiles - shouldn't be empty and consist only of files[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should createLabel - check if contains bright[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should saveFileToNewDest - check if final directory is correct[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 6 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(Histogram1DSpec, sbt.ForkMain$SubclassFingerscan@46ee88c7, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHistogram1DSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHistogram1d[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should calculatePerceivedBrightness - return 0[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 2 seconds, 32 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 7[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 7, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UtlisSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Histogram1DSpec[0m
