@@ -5,10 +5,13 @@ import org.bytedeco.opencv.opencv_core.Mat
 
 object Utils {
 
+  //TODO: metoda jesli zwraca boolean powinna zaczynać sie od 'is' lub 'has' boolean methods convention
   def checkRange(cutOff: Int): Boolean = cutOff > 0 && cutOff < 100
 
+  //TODO: same here
   def ifDirExists(path: String): Boolean = Files.exists(Paths.get(path))
 
+  //TODO: to tez jest slabe ze metoda load image zamyka aplikacje
   def loadImage(absPath: String, code: Int = IMREAD_GRAYSCALE): Mat = {
     val image = imread(absPath, code)
     if (image.empty()) {
@@ -22,6 +25,7 @@ object Utils {
     image
   }
 
+  //TODO: jesli metoda zwraca listy nie powinno sie tego duplikować w nazwie getFiles: List jest dosyć klarowne
   def getListOfFiles(dir: String):List[File] = {
     val d = new File(dir)
     if (d.exists && d.isDirectory) {
@@ -57,6 +61,7 @@ object Utils {
     )
   }
 
+  //TODO: metoda robi dwie rzeczy
   def createDirIfNotExists(path: String): Unit = {
     if(ifDirExists(path)) {
       println("Directory already exists")
